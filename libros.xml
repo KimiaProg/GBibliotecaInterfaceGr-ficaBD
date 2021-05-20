@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+	<libro>
+		<titulo>hi</titulo>
+		<isbn>h</isbn>	
+		<autor>y</autor>
+		<genero>ficcion</genero>
+		<paginas>5</paginas>
+	</libro>
+	
+	<libro>
+		<titulo>gg</titulo>
+		<isbn>r</isbn>	
+		<autor>r</autor>
+		<genero>novela</genero>
+		<paginas>4</paginas>
+	</libro>
+</libros>

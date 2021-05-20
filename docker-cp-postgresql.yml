@@ -1,0 +1,22 @@
+# Use postgres/example user/password credentials
+version: '3.1'
+
+services:
+
+  db-pgsql:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: developer
+      POSTGRES_PASSWORD: programaciondaw
+      POSTGRES_DB: biblioteca
+    ports:
+      - 5432:5432
+    volumes:
+      - "./.docker/initbd:/docker-entrypoint-initdb.d"
+
+        #  adminer-pgsql:
+        #    image: adminer
+        #    restart: always
+        #    ports:
+        #      - 8080:8080
